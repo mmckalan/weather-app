@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+html, body{
+  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #070707;
+  font-family: 'Comfortaa', cursive;
+  color:white;
+}
+
+.div-container{
+  margin: 0 auto;
+  display:grid;
+  grid-gap: 0.5em;
+  grid-auto-columns: 50%;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.div-container > div {
+  background: #F46036;
+  padding: 1%;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.div-container > div:nth-child(odd){
+  background: #070707;
+}
+
+.div-container h1{
+  color: white;
+  font-size: 3em;
+}
+
+.nested{
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.nested > div {
+  padding: 3%;
+  border: 3px solid white;
+}
+
+#icon,
+#city{
+  font-size: 4em;
+  color: white;
+}
+
+#stats{
+  font-size: 1.2em;
+  color: white;
+}
+.wi{
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
